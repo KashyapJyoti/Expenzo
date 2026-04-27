@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+}
+
+.card {
+  @apply bg-white border border-slate-200 shadow-soft rounded-2xl p-6 dark:bg-slate-900/80 dark:border-slate-800/80;
+}
+
+.card-muted {
+  @apply bg-slate-100 border border-slate-200 rounded-2xl p-5 dark:bg-slate-900/60 dark:border-slate-800/70;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition;
+}
+
+.btn-primary {
+  @apply btn bg-brand hover:bg-brand-dark text-white shadow-lg shadow-emerald-500/30;
+}
+
+.btn-outline {
+  @apply btn border border-slate-300 text-slate-800 hover:bg-slate-100 dark:border-slate-600 dark:text-slate-100 dark:hover:bg-slate-800;
+}
+
+.input {
+  @apply w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-500 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand/70 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-100;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.badge-green {
+  @apply badge bg-emerald-500/10 text-emerald-600 border border-emerald-500/40 dark:bg-emerald-500/15 dark:text-emerald-300;
+}
+
+.badge-red {
+  @apply badge bg-red-500/10 text-red-600 border border-red-500/40 dark:bg-red-500/15 dark:text-red-300;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
