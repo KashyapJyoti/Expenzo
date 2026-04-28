@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Expenzo – MERN Expense Tracker
 
 Expenzo is a production-ready MERN stack expense tracker with JWT auth, rich dashboards, charts, and smart money tips.
